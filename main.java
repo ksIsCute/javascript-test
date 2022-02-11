@@ -47,11 +47,6 @@ public class Main {
       new InputStreamReader(System.in));
         String number = numlin.readLine();
       return;
-    if(number == "") {
-      System.out.println("Please input a option!");
-      wait(500);
-      return;
-      }
     }
   }
 }
